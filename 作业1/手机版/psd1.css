@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 781px;
+    min-width: 410px;
+}
+
+
+/*头部*/
+
+.title {
+    width: 100%;
+    height: 120px;
+    background: #E6F791;
+    text-align: center;
+}
+
+
+/*end 头部*/
+
+
+/*中间小图标*/
+
+.m-line1 {
+    width: 100%;
+    height: 180px;
+}
+
+.m-con1 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon1 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -600px;
+    margin-bottom: 20px;
+}
+
+.m-con1 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con2 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon2 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -515px;
+    margin-bottom: 20px;
+}
+
+.m-con2 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con3 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon3 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -430px;
+    margin-bottom: 20px;
+}
+
+.m-con3 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con4 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon4 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -345px;
+    margin-bottom: 20px;
+}
+
+.m-con4 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-line2 {
+    width: 100%;
+    height: 180px;
+}
+
+.m-con2-1 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon2-1 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -260px;
+    margin-bottom: 20px;
+}
+
+.m-con2-1 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con2-2 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon2-2 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -175px;
+    margin-bottom: 20px;
+}
+
+.m-con2-2 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con2-3 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon2-3 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px -90px;
+    margin-bottom: 20px;
+}
+
+.m-con2-3 span {
+    font-size: 20px;
+    color: #666;
+}
+
+.m-con2-4 {
+    float: left;
+    width: 25%;
+    height: 170px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}
+
+.m-icon2-4 {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: url(phoneicon/icon1.png) no-repeat 0px 0px;
+    margin-bottom: 20px;
+}
+
+.m-con2-4 span {
+    font-size: 20px;
+    color: #666;
+}
+
+
+/*end 中间小图标*/
+/*分隔线*/
+.b-title{
+    width: 100%;
+    height: 27px;
+    background: url(phoneicon/photo3.gif) 0 0;
+    margin-top: 30px;
+}
+/*end 分隔线*/
+
+/*底部左边*/
+.b-left{
+    float: left;
+width: 33%;
+height: 300px;
+
+}
+.b-left-text1{
+    display: block;
+font-size: 24px;
+    color: #093;
+    margin: 15px;
+}
+.b-left-text2{
+    display: block;
+font-size: 16px;
+    color: #6c9;
+}
+.b-left-photo{
+    width: 160px;
+    height: 140px;
+    background: url(phoneicon/photo2.png) no-repeat 0px -275px;
+    margin: 15px 0 0 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*end 底部左边*/
+/*底部中间*/
+.b-middle{
+    float: left;
+width: 33%;
+height: 300px;
+}
+.b-middle-text1{
+    display: block;
+font-size: 24px;
+    color: #69c;
+    margin: 15px;
+}
+.b-middle-text2{
+    display: block;
+font-size: 16px;
+    color: #999;
+}
+.b-middle-photo{
+    width: 160px;
+    height: 140px;
+    background: url(phoneicon/photo2.png) no-repeat 0px -140px;
+    margin: 15px 0 0 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*end 底部中间*/
+/*底部右边*/
+.b-right{
+    float: left;
+width: 33%;
+height: 300px;
+}
+.b-right-text1{
+    display: block;
+font-size: 24px;
+    color: #093;
+    margin: 15px;
+}
+.b-right-text2{
+    display: block;
+font-size: 16px;
+    color: #6c9;
+}
+.b-right-photo{
+    width: 160px;
+    height: 140px;
+    background: url(phoneicon/photo2.png) no-repeat 0px 0px;
+    margin: 15px 0 0 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*end 底部右边*/
