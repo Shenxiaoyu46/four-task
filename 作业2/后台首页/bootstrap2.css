@@ -1,0 +1,76 @@
+ .container {
+     min-width: 970px;
+ }
+ /*左边分列*/
+ 
+ .col-md-3.col-sm-4 {
+     background-color: #5D5656;
+     color: #fff;
+ }
+ 
+ .table-hover {
+     background-color: #65AB14;
+     margin: 15px 10px 30px 90px;
+     width: 180px;
+     font-size: 20px;
+     text-align: right;
+ }
+ 
+ td:hover {
+     color: #000;
+ }
+ 
+ .background {
+     background-color: #fff;
+     color: #000;
+ }
+ 
+ h1 {
+     margin-bottom: 20px;
+ }
+ 
+ h6 {
+     margin-bottom: 0px;
+ }
+ 
+ .table-hover td {
+     line-height: 50px;
+ }
+ /*end 左边分列*/
+ /*快捷方式板块*/
+ 
+ .btn-default {
+     width: 100px;
+     height: 60px;
+     line-height: 45px;
+     margin-left: 20px;
+ }
+ /*end 快捷方式板块*/
+ /*信息列表*/
+ 
+ .con {
+     border: 1px solid #00f;
+     margin-top: 35px;
+     line-height: 30px;
+ }
+ 
+ caption {
+     padding-left: 5px;
+     margin-bottom: 30px;
+ }
+ 
+ h3,
+ h4 {
+     padding-left: 15px;
+ }
+ /*信息列表*/
+ 
+ .line {
+     border: 1px solid #E8DEDE;
+     margin-top: 20px;
+ }
+ 
+ .note {
+     line-height: 30px;
+     font-size: 12px;
+ }
