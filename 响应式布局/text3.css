@@ -1,0 +1,1124 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                body {
+                    font: 12px arial;
+                }
+                
+                @media only screen and (min-width: 480px) {
+                    /*header*/
+                    header {
+                        height: 24px;
+                        width: 100%;
+                        display: inline-block;
+                        text-align: right;
+                        right: 0;
+                        top: 0;
+                        margin: 19px 0 5px 0;
+                    }
+                    .phone-container,
+                    .phoneclass {
+                        display: none;
+                    }
+                    .class {
+                        display: inline-block;
+                        position: absolute;
+                        text-align: right;
+                        right: 0;
+                        top: 0;
+                        margin: 19px 0 5px 0;
+                        padding: 0 140px 0 0;
+                        z-index: 99999;
+                    }
+                    .class a:hover {
+                        color: #00c;
+                    }
+                    .class1 {
+                        float: left;
+                        color: #333;
+                        line-height: 24px;
+                        margin-left: 20px;
+                        font-size: 13px;
+                        font-weight: bolder;
+                    }
+                    .class4 {
+                        position: absolute;
+                        right: 10px;
+                        width: 60px;
+                        height: 23px;
+                        float: left;
+                        color: white;
+                        background: #38f;
+                        line-height: 24px;
+                        font-size: 13px;
+                        text-align: center;
+                        overflow: hidden;
+                        border-bottom: 1px solid #38f;
+                        margin-left: 19px;
+                        margin-right: 2px;
+                        cursor: pointer;
+                    }
+                    .class5 {
+                        float: left;
+                        display: inline-block;
+                        color: #333;
+                        line-height: 24px;
+                        margin-left: 20px;
+                        font-size: 13px;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                    .class5-1 {
+                        float: left;
+                        display: inline-block;
+                        color: #333;
+                        line-height: 24px;
+                        margin-left: 20px;
+                        font-size: 13px;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                    /*下拉菜单*/
+                    .menu {
+                        position: absolute;
+                        width: 46px;
+                        height: 24px;
+                        right: 95px;
+                    }
+                    .menu .setting {
+                        width: 66px;
+                        position: absolute;
+                        top: 25px;
+                        left: 3px;
+                        border: 1px solid #d8d8d8;
+                        box-shadow: 1px 1px 5px #d8d8d8;
+                        display: inline-block;
+                        text-align: center;
+                        display: none;
+                    }
+                    .menu:hover .setting {
+                        display: block;
+                    }
+                    .menu .setting a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #333;
+                        width: 100%;
+                        line-height: 26px;
+                        cursor: pointer;
+                        font-size: 13px;
+                    }
+                    .menu .setting a:hover {
+                        color: #fff;
+                        background-color: #38f;
+                    }
+                    .menu .icon1 {
+                        border: 5px solid transparent;
+                        width: 0px;
+                        height: 0px;
+                        position: absolute;
+                        display: inline-block;
+                        top: -11px;
+                        left: 25px;
+                        border-style: dashed dashed solid dashed;
+                        border-bottom-color: #d8d8d8;
+                    }
+                    .menu .icon2 {
+                        border: 5px solid transparent;
+                        width: 0px;
+                        height: 0px;
+                        position: absolute;
+                        display: inline-block;
+                        top: -10px;
+                        left: 25px;
+                        border-style: dashed dashed solid dashed;
+                        border-bottom-color: #fff;
+                    }
+                    /*body*/
+                    .center {
+                        position: relative;
+                        text-align: center;
+                        width: 100%;
+                        height: 191px;
+                        top: 0px\9;
+                        *top: 50px;
+                    }
+                    .bg {
+                        width: 100%;
+                        text-align: center;
+                        display: -webkit-box;
+                        -webkit-box-pack: center;
+                        display: -moz-box;
+                        -moz-box-pack: center;
+                    }
+                    .picture {
+                        background: url(photo/baidu.png) no-repeat;
+                        background-size: 270px 129px;
+                        margin: 0px 0px 50px 0px;
+                        *margin: 0px 0px 50px 15px;
+                        width: 270px;
+                        height: 129px;
+                    }
+                    .text1 {
+                        height: 34px;
+                        border: 1px solid #b6b6b6;
+                        background: #fff;
+                        display: inline-block;
+                        width: 539px;
+                        margin-right: 0;
+                        +margin-left: -20px;
+                        _margin-left: 0;
+                        border-right-width: 0;
+                        border-color: #b8b8b8 transparent #ccc #b8b8b8;
+                        overflow: hidden;
+                        vertical-align: middle;
+                        line-height: 34px;
+                    }
+                    .text1:hover {
+                        border-color: #999 transparent #b3b3b3 #999;
+                    }
+                    .text2 {
+                        width: 540px;
+                        height: 36px;
+                        display: inline-block;
+                    }
+                    .photo1 {
+                        position: absolute;
+                        margin-left: 242px;
+                        margin-top: -24px;
+                        margin-left: -30px\9;
+                        margin-top: 12px\9;
+                        height: 20px;
+                        width: 25px;
+                        background: url(photo/photo.png) 0px 0px no-repeat;
+                        cursor: pointer;
+                    }
+                    @-moz-document url-prefix() {
+                        .photo1 {
+                            margin: 12px 0 0 -30px;
+                        }
+                    }
+                    .photo1:hover {
+                        background: url(photo/photo.png) 0px -21px no-repeat;
+                    }
+                    .class3 {
+                        margin-left: -3px;
+                        +margin-top: -41px;
+                        +margin-left: 578px;
+                        _margin-top: -43px;
+                        _margin-left: 590px;
+                        color: #ffffff;
+                        width: 100px;
+                        height: 36px;
+                        color: white;
+                        font-size: 15px;
+                        letter-spacing: 1px;
+                        background: #3385ff;
+                        border: 1px solid #2d78f4;
+                        vertical-align: middle;
+                        cursor: pointer;
+                    }
+                    .class3:hover {
+                        background: #317ef3;
+                        border-bottom: 1px solid #2868c8;
+                        box-shadow: 1px 1px 1px #ccc;
+                    }
+                    form {
+                        margin: -23px auto 0;
+                        width: 641px;
+                        position: relative;
+                    }
+                    /*footer*/
+                    .ftcon {
+                        width: 100%;
+                        height: 100px;
+                        position: absolute;
+                        margin: 0 auto;
+                        bottom: 23px;
+                        text-align: left;
+                    }
+                    .footer {
+                        overflow: hidden;
+                        margin: 0 auto;
+                        text-align: center;
+                        *height: 70px;
+                        *margin-left: 380px;
+                    }
+                    .class9 {
+                        display: inline-block;
+                        width: 277px;
+                        height: 60px;
+                        *float: left;
+                    }
+                    .qrcode1 {
+                        width: 60px;
+                        height: 60px;
+                        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_62c636fe.png) 0 0 no-repeat;
+                        float: left;
+                    }
+                    .con1 {
+                        float: left;
+                        margin-left: 7px;
+                        *margin-left: 3px;
+                        margin-top: 10px;
+                    }
+                    .class7 {
+                        color: #666;
+                        line-height: 22px;
+                        font-size: 13px;
+                    }
+                    .class8 {
+                        color: #999;
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                    .pad1 {
+                        float: left;
+                        margin-left: 33px;
+                        margin-top: 0px\0;
+                        margin-left: 30px\0;
+                        float: left\0;
+                    }
+                    .qrcode2 {
+                        width: 60px;
+                        height: 60px;
+                        float: left;
+                        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_510f7472.png) 0 0 no-repeat;
+                        *margin-left: 30px;
+                    }
+                    .con {
+                        width: 328px;
+                        height: 70px;
+                        margin-left: 33px;
+                        display: inline-block;
+                        text-align: left;
+                        margin-left: 33px;
+                        line-height: 22px;
+                        position: relative;
+                        top: -2px;
+                        *float: left;
+                    }
+                    .pad {
+                        width: 328px;
+                        height: 22px;
+                        margin: 0;
+                        padding: 0;
+                        display: block;
+                    }
+                    .class2 {
+                        margin-left: 0px;
+                        color: #999;
+                    }
+                    .class2-2 {
+                        margin-left: 62px;
+                        color: #999;
+                    }
+                    .class2-3 {
+                        margin-left: 62px;
+                        position: absolute;
+                        color: #999;
+                    }
+                    :root .class2-3 {
+                        margin-left: 58px;
+                        position: absolute;
+                        color: #999;
+                    }
+                    .class2-4 {
+                        width: 84px;
+                        color: #999;
+                    }
+                    .class2-5 {
+                        color: #999;
+                        width: 48px;
+                    }
+                    p {
+                        color: #999;
+                        display: inline-block;
+                        width: 328px;
+                    }
+                    .class6 {
+                        position: absolute;
+                    }
+                    .class10 {
+                        line-height: 22px;
+                    }
+                    .photo {
+                        background-position: -600px -96px;
+                        position: relative;
+                        top: 3px;
+                        width: 14px;
+                        height: 17px;
+                        display: inline-block;
+                        overflow: hidden;
+                        background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_0e814c16.png) no-repeat;
+                    }
+                    .photo2 {
+                        width: 17px;
+                        height: 12px;
+                        background-color: #ffffff;
+                    }
+                    .photo3 {
+                        background-position: -623px -96px;
+                        position: relative;
+                        top: 3px;
+                    }
+                }
+                /*显示屏幕小于480px*/
+                
+                @media only screen and (max-width:480px) {
+                    .container {
+                        background-color: #eeeff0;
+                        -webkit-transition:width 1s ease;
+                    }
+                    .ftcon {
+                        display: none;
+                    }
+                    /*头部*/
+                    .phoneclass {
+                        width: 100%;
+                        height: 54px;
+                    }
+                    .phoneweather {
+                        width: 28px;
+                        height: 35px;
+                        margin: 0px 0 0 2px;
+                        background: url(photo/phoneicon.png) no-repeat 4px 0px;
+                        float: left;
+                    }
+                    .phoneweather-num {
+                        font-size: 20px;
+                        color: #8c8c8c;
+                        padding-left: 2px;
+                        float: left;
+                        margin: 8px 0 0 2px;
+                    }
+                    .phoneweather-place {
+                        height: 13px;
+                        line-height: 13px;
+                        float: left;
+                        font-size: 11px;
+                        color: #999;
+                        margin: 6px 0 0 6px;
+                    }
+                    .phoneweather-arrow {
+                        width: 20px;
+                        height: 20px;
+                        background: url(photo/phoneicon.png) no-repeat 0px -31px;
+                        float: left;
+                        margin-top: 9px;
+                    }
+                    .phoneweather-people {
+                        background: url(photo/phoneicon.png) no-repeat -2px -58px;
+                        width: 24px;
+                        float: right;
+                        height: 24px;
+                        margin-right: 50px;
+                        margin-top: 8px;
+                    }
+                    .phoneweather-clothes {
+                        background: url(photo/phoneicon.png) no-repeat -2px -277px;
+                        width: 24px;
+                        float: right;
+                        height: 24px;
+                        margin-right: -60px;
+                        margin-top: 8px;
+                    }
+                    /*end 头部*/
+                    /*百度logo*/
+                    .center {
+                        background-color: #eeeff0;
+                        text-align: center;
+                    }
+                    .picture {
+                        background: url(photo/plus.logo.png) no-repeat;
+                        background-size: 175px 55px;
+                        margin: 0px 0px 20px 0px;
+                        width: 175px;
+                        height: 55px;
+                    }
+                    .bg {
+                        width: 100%;
+                        text-align: center;
+                        display: -webkit-box;
+                        -webkit-box-pack: center;
+                        display: -moz-box;
+                        -moz-box-pack: center;
+                    }
+                    .text1 {
+                        width: 100%;
+                        height: 42px;
+                        border-left: 1px solid #b6b6b6;
+                        border-bottom: 1px solid #b6b6b6;
+                        border-top: 1px solid #988C8C;
+                    }
+                    .photo1 {
+                        position: absolute;
+                        width: 15px;
+                        background: url(photo/callicon.png) no-repeat 0px 0px;
+                        height: 20px;
+                        right: 115px;
+                        background-size: 37px 20px;
+                        margin-top: -33px;
+                    }
+                    .photo1:after {
+                        content: "";
+                        display: inline-block;
+                        margin-left: 19px;
+                        margin-top: 9px;
+                        border: 4px solid transparent;
+                        border-top-color: #717077;
+                    }
+                    .class3 {
+                        position: absolute;
+                        margin: 0px 10px 0 0;
+                        top: 7px;
+                        right: -1px;
+                        width: 82px;
+                        height: 44px;
+                        background: #38f;
+                        color: #fff;
+                        white-space: nowrap;
+                        line-height: 42px;
+                        letter-spacing: -1px;
+                        font-size: 16px;
+                        border: none;
+                    }
+                    .text-container {
+                        position: relative;
+                    }
+                    .text2 {
+                        margin-left: 10px;
+                        padding: 7px 42px 7px 6px;
+                    }
+                    /*end 百度logo*/
+                    /*导航条*/
+                    .class {
+                        display: none;
+                    }
+                    .navs-container {
+                        margin: 17px 0 14px;
+                        height: 42px;
+                        text-align: center;
+                    }
+                    .phonecon-center {
+                        display: -webkit-box;
+                        -webkit-box-pack: center;
+                        display: -moz-box;
+                        -moz-box-pack: center;
+                    }
+                    .phonecon1 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                        margin-left: 2%
+                    }
+                    .phonecon-navs1 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -80px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .phonecon2 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                    }
+                    .phonecon-navs2 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -102px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .phonecon3 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                    }
+                    .phonecon-navs3 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -125px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .phonecon4 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                    }
+                    .phonecon-navs4 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -153px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .phonecon5 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                    }
+                    .phonecon-navs5 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -180px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .phonecon6 {
+                        float: left;
+                        width: 16%;
+                        height: 42px;
+                        margin-right: 2%
+                    }
+                    .phonecon-navs6 {
+                        width: 24px;
+                        height: 24px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -211px;
+                        display: block;
+                        margin-bottom: 4px;
+                    }
+                    .class1 {
+                        font-size: 12px;
+                        color: #666;
+                        text-decoration: none;
+                        line-height: 20px;
+                    }
+                    /*end 导航条*/
+                    /*新闻信息导航块*/
+                    .menu-container {
+                        height: 42px;
+                        background: #fff;
+                        text-align: left;
+                        line-height: 41px;
+                        padding: 2px 12px 0;
+                        border-bottom: 1px solid #e6e6e6;
+                    }
+                    .menu-item1 {
+                        line-height: 40px;
+                        font-size: 15px;
+                        font-weight: normal;
+                        color: #999;
+                    }
+                    .menu-icon1 {
+                        width: 20px;
+                        height: 30px;
+                        float: right;
+                        background: url(photo/phoneicon.png) no-repeat -3px -296px;
+                        margin-top: 4px;
+                    }
+                    .plus-content {
+                        margin-top: -5px;
+                        font-size: 14px;
+                        background-color: #fff;
+                        height: 84px;
+                    }
+                    .plus-content a {
+                        float: left;
+                        display: block;
+                        position: relative;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        padding: 0 6px;
+                        width: 25%;
+                        height: 42px;
+                        line-height: 42px;
+                        color: #262626;
+                        text-align: center;
+                    }
+                    .plus-content a span {
+                        display: inline-block;
+                        position: relative;
+                        padding: 0 6px 0 5px;
+                        max-width: 100%;
+                        box-sizing: border-box;
+                    }
+                    .menu-icon2 {
+                        float: left;
+                        display: block;
+                        position: relative;
+                        background: url(photo/phoneicon.png) no-repeat 33px -322px;
+                        height: 38px;
+                        width: 25%;
+                        margin-top: 4px;
+                    }
+                    /*end 新闻信息导航块*/
+                    /*热搜框*/
+                    .hotword-list {
+                        padding: 0 4.35% 2px 4.35%;
+                        border-top: 7px solid #f0f0f0;
+                        border-bottom: 8px solid #f0f0f0;
+                        margin-bottom: -1px;
+                        position: relative;
+                        background-color: #fff;
+                    }
+                    h2 {
+                        padding-left: 2.42%;
+                        line-height: 40px;
+                        font-size: 15px;
+                        font-weight: normal;
+                        color: #999;
+                    }
+                    .refresh {
+                        display: inline-block;
+                        position: absolute;
+                        top: 0;
+                        right: 28px;
+                        width: 100px;
+                        height: 40px;
+                        line-height: 40px;
+                        color: #262626;
+                        font-size: 14px;
+                        text-align: center;
+                        background: url(photo/phoneicon.png) no-repeat 0px -346px;
+                    }
+                    .menu-icon3 {
+                        width: 20px;
+                        height: 30px;
+                        background: url(photo/phoneicon.png) no-repeat -3px -297px;
+                        float: right;
+                        margin: -36px 15px 0 0;
+                    }
+                    .hotword-item {
+                        width: 48.7%;
+                        display: inline-block;
+                        height: 30px;
+                        line-height: 30px;
+                        margin-bottom: 3.28%;
+                    }
+                    .hotsearch {
+                        line-height: 42px;
+                        text-align: right;
+                        border-top: 1px solid #f4f5f6;
+                    }
+                    .hotsearch a {
+                        display: inline-block;
+                        padding-right: 14px;
+                        font-size: 14px;
+                        color: #0058d2;
+                        text-decoration: none;
+                    }
+                    .hotnews1 {
+                        padding: 0 20px 0 10px;
+                        color: #333;
+                        height: 30px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        background: url(photo/hot.png) no-repeat 125px 0px;
+                    }
+                    .hotnews2 {
+                        padding: 0 20px 0 10px;
+                        margin-left: 10px;
+                        color: #333;
+                        height: 30px;
+                        text-decoration: none;
+                        font-size: 14px;
+                        background: url(photo/hot.png) no-repeat 110px 0px;
+                    }
+                    .hotnews3 {
+                        padding: 0 20px 0 10px;
+                        color: #333;
+                        height: 30px;
+                        text-decoration: none;
+                        font-size: 14px;
+                    }
+                    .hotnews4 {
+                        padding: 0 20px 0 10px;
+                        color: #333;
+                        margin-left: 10px;
+                        height: 30px;
+                        text-decoration: none;
+                        font-size: 14px;
+                    }
+                    /*end 热搜框*/
+                    /*百度推荐*/
+                    .news-recommend {
+                        margin-top: 8px;
+                        background: #fff;
+                        position: relative;
+                        border-top: 7px solid #f0f0f0;
+                        border-bottom: 8px solid #f0f0f0;
+                        margin-bottom: -1px;
+                    }
+                    .newscontent {
+                        padding: 13px 12px 0 12px;
+                        text-align: left;
+                        list-style: none;
+                    }
+                    .newscontent a {
+                        text-decoration: none;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        max-width: 85%;
+                        display: inline-block;
+                    }
+                    .newscontent li {
+                        border-bottom: 1px solid #f0f0f0;
+                        padding: 0 2px;
+                    }
+                    .newscon {
+                        float: left;
+                        position: absolute;
+                        display: block;
+                        font-size: 15px;
+                        line-height: 17px;
+                        color: #262626;
+                        margin: -53px 0 0 93px;
+                    }
+                    .newstime {
+                        display: block;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                    .news-lineheight {
+                        line-height: 41px;
+                        height: 41px;
+                    }
+                    .newstext {
+                        font-size: 15px;
+                        line-height: 17px;
+                        color: #262626;
+                    }
+                    .newstime1 {
+                        position: absolute;
+                        font-size: 12px;
+                        color: #999;
+                        right: 10px;
+                    }
+                    /*end 百度推荐*/
+                    /*生活服务*/
+                    .life-container {
+                        margin-top: 8px;
+                        background: #fff;
+                        position: relative;
+                        border-top: 7px solid #f0f0f0;
+                        border-bottom: 8px solid #f0f0f0;
+                        margin-bottom: -1px;
+                    }
+                    .life-info {
+                        max-height: 32px;
+                        line-height: 16px;
+                        font-size: 14px;
+                        margin: 8px 14px 14px;
+                        height: 30px;
+                        text-align: left;
+                        color: #262626;
+                    }
+                    .life-info button {
+                        position: absolute;
+                        top: 40px;
+                        right: 18px;
+                        width: 70px;
+                        height: 30px;
+                        border: 1px solid #d2d6dd;
+                        background-color: #fff;
+                        border-radius: 2px;
+                        text-indent: 20px;
+                        font-size: 14px;
+                        color: #262626;
+                        background: url(photo/phoneicon.png) no-repeat 3px -379px;
+                    }
+                    .life-content {
+                        height: 160px;
+                    }
+                    .life-icon {
+                        margin-top: 5px;
+                        padding-bottom: 5px;
+                        text-align: left;
+                        list-style: none;
+                    }
+                    .life-icon li {
+                        width: 25%;
+                        text-align: center;
+                        float: left;
+                        display: inline-block;
+                        margin-top: 5px;
+                    }
+                    .life-icon a {
+                        text-decoration: none;
+                        color: #262626;
+                    }
+                    .life-icon p {
+                        height: 18px;
+                        line-height: 18px;
+                        font-size: 14px;
+                        margin: 3px 0 8px;
+                    }
+                    .icon-flim {
+                        background: url(photo/phoneicon2.png) no-repeat -30px 0px;
+                        height: 42px;
+                    }
+                    .icon-groupon {
+                        background: url(photo/phoneicon2.png) no-repeat -33px -47px;
+                        height: 42px;
+                    }
+                    .icon-takeout {
+                        background: url(photo/phoneicon2.png) no-repeat -34px -95px;
+                        height: 42px;
+                    }
+                    .icon-taxi {
+                        background: url(photo/phoneicon2.png) no-repeat -35px -150px;
+                        height: 42px;
+                    }
+                    .icon-hotel {
+                        background: url(photo/phoneicon2.png) no-repeat -35px -198px;
+                        height: 42px;
+                    }
+                    .icon-food {
+                        background: url(photo/phoneicon2.png) no-repeat -38px -254px;
+                        height: 42px;
+                    }
+                    .icon-ktv {
+                        background: url(photo/phoneicon2.png) no-repeat -40px -300px;
+                        height: 42px;
+                    }
+                    .icon-pay {
+                        background: url(photo/phoneicon2.png) no-repeat -42px -358px;
+                        height: 42px;
+                    }
+                    .showall {
+                        height: 47px;
+                        line-height: 47px;
+                        border-top: 1px solid #f0f0f0;
+                        margin-top: 4px;
+                        font-size: 16px;
+                        color: #262626;
+                        text-align: center;
+                    }
+                    .special-sign {
+                        font-weight: bolder;
+                        margin-left: 5px;
+                        color: #b6b7ba;
+                    }
+                    /*end 生活服务*/
+                    /*购物*/
+                    .shopping-container {
+                        margin-top: 8px;
+                        background: #fff;
+                        position: relative;
+                        border-top: 7px solid #f0f0f0;
+                        border-bottom: 8px solid #f0f0f0;
+                        margin-bottom: -1px;
+                    }
+                    .shopping-content1 {
+                        height: 112px;
+                        margin-top: 5px;
+                    }
+                    .shopping-img {
+                        background: url(photo/umbrella.jpg) no-repeat 0 0;
+                        margin-left: 10px;
+                        width: 90px;
+                        height: 90px;
+                        background-size: 90px 90px;
+                        float: left;
+                    }
+                    .shopping-info ul {
+                        list-style: none;
+                    }
+                    .shopping-info li {
+                        float: left;
+                    }
+                    .shopping-info {
+                        width: 62%;
+                        height: 90px;
+                        margin-left: 104px;
+                    }
+                    .shopping-title {
+                        height: 20px;
+                        font-size: 16px;
+                        display: inline-block;
+                        color: #333;
+                        margin-top: -4px;
+                    }
+                    .price1 {
+                        font-size: 19px;
+                        color: #777;
+                        margin-right: 3px;
+                    }
+                    .price2 {
+                        font-size: 12px;
+                        color: #bcbcbc;
+                        text-decoration: line-through;
+                        margin-top: 5px;
+                    }
+                    .price3 {
+                        font-size: 17px;
+                        color: #dfdfdf;
+                        margin: -1px 8px;
+                    }
+                    .price4 {
+                        font-size: 12px;
+                        color: #f60;
+                        border: 1px solid #f60;
+                        text-align: center;
+                        padding: 1px;
+                        margin: 1px 0 0 -6px;
+                        -webkit-border-radius: 2px;
+                        border-radius: 2px;
+                        -webkit-transform: scale(0.8);
+                        transform: scale(0.8);
+                    }
+                    .shopping-btn {
+                        width: 90px;
+                        height: 37px;
+                        background: #f60;
+                        font-size: 14px;
+                        text-align: center;
+                        color: #fff;
+                        line-height: 36px;
+                        display: inline-block;
+                        position: absolute;
+                        bottom: 13px;
+                        left: 105px;
+                        top: 86px;
+                        -webkit-border-radius: 2px;
+                        border-radius: 2px;
+                        border: none;
+                    }
+                    .shopping-from {
+                        text-decoration: none;
+                        float: right;
+                        margin: -20px 5px 0 0;
+                        font-size: 12px;
+                        color: #aaa;
+                    }
+                    .shopping-store {
+                        margin: 0 14px;
+                        height: 78px;
+                    }
+                    .shopping-store a {
+                        width: 25%;
+                        height: 17px;
+                        font-size: 14px;
+                        margin-top: 22px;
+                        text-align: center;
+                        display: block;
+                        float: left;
+                        color: #262626;
+                        text-decoration: none;
+                    }
+                    .shopping-more {
+                        padding: 14px 14px 16px;
+                        margin-bottom: 15px;
+                    }
+                    .shopping-more a {
+                        font-size: 14px;
+                        color: #0058d2;
+                        display: block;
+                        float: right;
+                        text-decoration: none;
+                    }
+                    /*end 购物*/
+                    /*交通状况*/
+                    .traffic-container {
+                        margin-top: 8px;
+                        background: #fff;
+                        position: relative;
+                        border-top: 7px solid #f0f0f0;
+                        border-bottom: 8px solid #f0f0f0;
+                        margin-bottom: -1px;
+                    }
+                    .traffic-set {
+                        margin: 0 -8px;
+                        padding-top: 12px;
+                        height: 70px;
+                        text-align: center;
+                    }
+                    .traffic-text1 {
+                        margin-bottom: 10px;
+                        line-height: 15px;
+                        font-size: 15px;
+                        color: #0058d2;
+                    }
+                    .traffic-text2 {
+                        line-height: 14px;
+                        font-size: 14px;
+                        color: #262626;
+                    }
+                    /*end 交通状况*/
+                    /*管理卡片*/
+                    .manage {
+                        line-height: 45px;
+                        height: 45px;
+                        color: #333;
+                        font-size: 14px;
+                        text-indent: -8px;
+                        background: #fff;
+                        text-align: center;
+                    }
+                    /*end 管理卡片*/
+                    /*底部*/
+                    .bottom-container div {
+                        margin: 0 28px;
+                        padding-left: 30px;
+                        font-size: 13px;
+                        line-height: 33px;
+                    }
+                    .bottom-container a {
+                        text-decoration: none;
+                        color: #555;
+                    }
+                    .hoticon {
+                        background: url(photo/hot.gif) no-repeat 0px 12px;
+                    }
+                    .baiduicon {
+                        background: url(photo/baiduapp_icon.png) no-repeat 4px 8px;
+                        background-size: 15px 15px;
+                    }
+                    .foot {
+                        margin: 10px 28px 0;
+                        height: 98px;
+                        text-align: center;
+                    }
+                    .icon-feedback {
+                        background: url(photo/feedback.png) no-repeat 0px 0px;
+                        width: 15px;
+                        height: 15px;
+                        display: inline-block;
+                        position: absolute;
+                        float: left;
+                        background-size: 100% 100%;
+                        top: 8px;
+                        left: 0;
+                    }
+                    .user {
+                        text-align: center;
+                    }
+                    .user a {
+                        position: relative;
+                        display: inline-block;
+                        font-size: 12px;
+                        height: 20px;
+                        width: 95px;
+                        line-height: 20px;
+                        padding: 6px 0 0;
+                        color: #999;
+                    }
+                    .notes {
+                        font-size: 12px;
+                        height: 20px;
+                        line-height: 20px;
+                        padding: 6px 0 0;
+                        color: #999;
+                        text-align: center;
+                    }
+                    .police-con {
+                        height: 20px;
+                        line-height: 20px!important;
+                    }
+                    .police {
+                        position: absolute;
+                        background: url(photo/police.jpg) no-repeat 0px 0px;
+                        width: 12px;
+                        height: 12px;
+                        background-size: 100% 100%;
+                        margin: 3px 0 0 -17px;
+                    }
+                    /*end 底部*/
+                }
+                /*end 显示屏幕小于480px*/
